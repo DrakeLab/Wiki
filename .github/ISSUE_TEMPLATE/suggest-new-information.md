@@ -8,7 +8,7 @@ about: Suggest new info to include in the wiki
 Describe the missing information. Specifically, note what should be learned through this new info.
 
 **Does this information fall under an existing section of the work? Which one?**
-List an existing section: 
+List an existing section (add an 'x' to the [ ]): 
 - [ ] Linux and HPC
 - [ ] Software
 - [ ] Data Management
