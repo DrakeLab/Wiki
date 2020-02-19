@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1.5cm,bottom=2.5cm,top=5cm,nohead]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\newcommand{\email}[1]{\href{mailto:#1}{\tt \textcolor{cornflower}{#1}}}
+\usepackage{xcolor}
+\definecolor{plum}{rgb}{0.36078, 0.20784, 0.4}
+\definecolor{chameleon}{rgb}{0.30588, 0.60392, 0.023529}
+\definecolor{cornflower}{rgb}{0.12549, 0.29020, 0.52941}
+\definecolor{scarlet}{rgb}{0.8, 0, 0}
+\definecolor{brick}{rgb}{0.64314, 0, 0}
+\usepackage[%
+    colorlinks=true,  %display links in different colors
+    linkcolor=cornflower, %internal links
+    citecolor=scarlet, %references to a bibliography
+    urlcolor=chameleon %URLs
+]{hyperref}
+\usepackage{graphicx}
+\setlength{\parskip}{0.75em}
+\setlength{\parindent}{1.75em}
+\usepackage{afterpage}
+\usepackage[strict]{changepage}
+\pagestyle{empty}
+
+
+\begin{document}
+
+\begin{minipage}[c]{8in}\vskip-2cm
+%\begin{flushleft}
+	\begin{minipage}[c]{4in}
+		\begin{flushleft}
+			\includegraphics*[width=4cm]{Print-ODUM-V-FC.PNG}%
+		\end{flushleft}
+	\end{minipage}
+%	\,\,
+%%	\begin{minipage}[c]{0.25cm}
+%		\vrule depth 0.1\textheight
+%	\end{minipage}
+%	\,
+	\begin{minipage}[c]{2.5in}
+	\begin{flushright}
+		%\footnotesize
+		{%\sffamily
+			John M. Drake \\
+			Odum School of Ecology \\
+			University of Georgia \\
+			Athens, GA 30605 \\
+			phone: +1 706 818 4452  \\
+			\email{jdrake@uga.edu}
+		}
+	\end{flushright}
+	\end{minipage}
+\end{minipage}
+
+\begin{adjustwidth}{4em}{4em}
+
+\vspace{10mm}
+
+\noindent \today
+
+\vspace{2mm}
+
+\noindent Re: [INSERT TEXT]
+\vspace{2mm}
+
+\noindent To Whom It May Concern:
+
+[INSERT TEXT]
+
+\noindent Sincerely yours,\\
+%\includegraphics[width=0.25\textwidth]{signature.png} \\
+John M. Drake\\
+Distinguished Research Professor\\
+Odum School of Ecology
+
+\end{adjustwidth}
+
+\end{document}
+
